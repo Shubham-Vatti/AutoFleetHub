@@ -6,6 +6,7 @@ const { width, height } = Dimensions.get('window')
 import { BackButtonHeader, BlackButton, getFontSize } from '../Components/UiComps'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 import Feather from 'react-native-vector-icons/Feather'
+import AppLodingScreen from '../Components/AppLodingScreen'
 const LoginScreen = ({ navigation }) => {
 
   const HandleFunction=()=>{
@@ -61,6 +62,8 @@ const LoginScreen = ({ navigation }) => {
           </TouchableOpacity>
         </View>
       </View>
+      {/* <AppLodingScreen/> */}
+      {/* <AppLodingScreen/> */}
     </View>
   )
 }

@@ -40,7 +40,7 @@ const BottomStack = () => {
                         tabBarLabel:"Search",
                     }
                 }/>
-        <Bottom.Screen name='Likedscreen' component={WishlistScreen}  options={
+        {/* <Bottom.Screen name='Likedscreen' component={WishlistScreen}  options={
                     {
                         tabBarIcon: (tabinfo) => {
                             return (tabinfo.focused ? <AntDesign name="hearto" size={width*0.066} color={DarkOrangecolor} />:<AntDesign name="hearto" size={width*0.066} color={LightBlackcolor} />)
@@ -53,7 +53,7 @@ const BottomStack = () => {
                         tabBarLabelStyle: { fontFamily: 'Poppins-Medium', textAlign: 'center' },
                         tabBarLabel:"Saved",
                     }
-                }/>
+                }/> */}
         <Bottom.Screen name='Profilescreen' component={ProfileScreen}  options={
                     {
                         tabBarIcon: (tabinfo) => {
